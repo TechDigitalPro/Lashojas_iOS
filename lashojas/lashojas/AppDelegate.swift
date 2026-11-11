@@ -27,8 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         IQKeyboardManager.shared.enable = true
         
-        GMSServices.provideAPIKey("AIzaSyCSLbdLQQXkFi2NgsYXtou2qF3nmEz5zhE")
-        GMSPlacesClient.provideAPIKey("AIzaSyCSLbdLQQXkFi2NgsYXtou2qF3nmEz5zhE")
+        GMSServices.provideAPIKey("")
+        GMSPlacesClient.provideAPIKey("")
         
         FirebaseApp.configure()
         
